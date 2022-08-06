@@ -1,0 +1,25 @@
+body
+{
+    background-color: #ff0000;
+    color: white;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.header
+{
+    font-size: large;
+}
+
+.main
+{
+    font-size: medium;
+}
+
+.footer
+{
+    font-size: small;
+}
