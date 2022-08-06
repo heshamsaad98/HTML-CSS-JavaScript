@@ -1,0 +1,27 @@
+<!DOCTYBE html>
+
+<html lang = "en">
+    <head>
+        <script>
+            function greet()
+            {
+                let name = decument.querySelector('#name').value;
+                alert('hello, ' + name)
+            }
+            function listen()
+            {
+                document.querySelector('form').addEventListener('submit', greet);
+            }
+            document.addEventListener('DOMContentLoaded', listen);
+        </script>
+        <title>
+            JavaScript
+        </title>
+    </head>
+    <body>
+        <form>
+            <input autocomplete = "off" autofocus id = "name" placeholder = "What's your name?" type = "text">
+            <input type = "submit" value = "Greet Me">
+        </form>
+    </body>
+</html>
